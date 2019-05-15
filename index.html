@@ -15,9 +15,11 @@
   </head>
   <body>
     <div class="container">
+      <!-- Header -->
       <header class="header">
         <img src="img/logo.png" alt="trillo logo" class="logo" />
 
+        <!-- Search Form -->
         <form action="#" class="search">
           <input
             type="text"
@@ -30,7 +32,9 @@
             </svg>
           </button>
         </form>
+        <!-- End Search Form -->
 
+        <!-- User Nav -->
         <nav class="user-nav">
           <div class="user-nav__icon-box">
             <svg class="user-nav__icon">
@@ -53,14 +57,59 @@
             <span class="user-nav__user-name">Jonas</span>
           </div>
         </nav>
+        <!-- End User Nav -->
       </header>
+      <!-- End Header -->
+
       <div class="content">
+        <!-- Side Nav -->
         <nav class="sidebar">
-          Navigation
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                  <span>Home</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                  <span>Flight</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                  <span>Car rental</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                  <span>Tours</span>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 2019 by trillo. All rights reserved.
+          </div>
         </nav>
+        <!-- End Side Nav -->
+
+        <!-- Main Content -->
         <main class="hotel-view">
           Hotel view
         </main>
+        <!-- End Main Content -->
       </div>
     </div>
   </body>
